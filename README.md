@@ -7,6 +7,6 @@ Kudo's to Github for being able to display GeoJSON natively on MapBox.  You will
 If you have a Mac... Brew makes it really easy.
 
 1. brew install gdal
-2. ogr2ogr -f GeoJSON -t_srs crs:84 <my.geojson> <shapefile.shp>
+2. ogr2ogr -f GeoJSON -t_srs crs:84 newf.geojson <shapefile.shp>
 
 Here's the documentation for the "ogr2ogr" http://www.gdal.org/ogr2ogr.html
